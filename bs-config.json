@@ -1,0 +1,13 @@
+{
+  "port": 8080,
+  "server": {
+    "baseDir": "website"
+  },
+  "files": [
+    "website/**/*.{html,css}"
+  ],
+  "watchOptions": {
+    "ignored": "node_modules"
+  },
+  "open": false
+}

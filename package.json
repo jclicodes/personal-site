@@ -1,0 +1,19 @@
+{
+  "name": "jcli.codes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./tailwind.css -o ./website/css/tailwind.min.css --minify",
+    "watch": "npm run build -- --watch",
+    "dev": "npx lite-server --base-dir=website"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "better-commits": "^1.16.1",
+    "lite-server": "^2.6.1",
+    "tailwindcss": "^4.0.7"
+  }
+}
